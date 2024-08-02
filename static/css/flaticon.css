@@ -1,0 +1,361 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticondc64.woff2?0dfb4822004fbcc993aae7533ea9b735") format("woff2"),
+url("../fonts/flaticondc64.woff?0dfb4822004fbcc993aae7533ea9b735") format("woff"),
+url("../fonts/flaticondc64.eot?0dfb4822004fbcc993aae7533ea9b735#iefix") format("embedded-opentype"),
+url("../fonts/flaticondc64.ttf?0dfb4822004fbcc993aae7533ea9b735") format("truetype"),
+url("../fonts/flaticondc64.svg?0dfb4822004fbcc993aae7533ea9b735#flaticon") format("svg")
+}
+
+i[class^="pbmit-xcare-icon-"]:before, i[class*=" pbmit-xcare-icon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-xcare-icon-doctor:before {
+    content: "\f101";
+}
+.pbmit-xcare-icon-appointment:before {
+    content: "\f102";
+}
+.pbmit-xcare-icon-placeholder:before {
+    content: "\f103";
+}
+.pbmit-xcare-icon-gesundheit:before {
+    content: "\f104";
+}
+.pbmit-xcare-icon-gesundheit-1:before {
+    content: "\f105";
+}
+.pbmit-xcare-icon-team:before {
+    content: "\f106";
+}
+.pbmit-xcare-icon-family:before {
+    content: "\f107";
+}
+.pbmit-xcare-icon-hospital-building:before {
+    content: "\f108";
+}
+.pbmit-xcare-icon-emergency:before {
+    content: "\f109";
+}
+.pbmit-xcare-icon-laboratory:before {
+    content: "\f10a";
+}
+.pbmit-xcare-icon-first-aid-kit:before {
+    content: "\f10b";
+}
+.pbmit-xcare-icon-patient:before {
+    content: "\f10c";
+}
+.pbmit-xcare-icon-medical-equipment:before {
+    content: "\f10d";
+}
+.pbmit-xcare-icon-consultation:before {
+    content: "\f10e";
+}
+.pbmit-xcare-icon-prescription:before {
+    content: "\f10f";
+}
+.pbmit-xcare-icon-medical-stretcher:before {
+    content: "\f110";
+}
+.pbmit-xcare-icon-pediatrics:before {
+    content: "\f111";
+}
+.pbmit-xcare-icon-orthopedics:before {
+    content: "\f112";
+}
+.pbmit-xcare-icon-joint:before {
+    content: "\f113";
+}
+.pbmit-xcare-icon-lunges:before {
+    content: "\f114";
+}
+.pbmit-xcare-icon-dental:before {
+    content: "\f115";
+}
+.pbmit-xcare-icon-insurance:before {
+    content: "\f116";
+}
+.pbmit-xcare-icon-stethoscope:before {
+    content: "\f117";
+}
+.pbmit-xcare-icon-laboratory-1:before {
+    content: "\f118";
+}
+.pbmit-xcare-icon-hospital:before {
+    content: "\f119";
+}
+.pbmit-xcare-icon-high-temperature:before {
+    content: "\f11a";
+}
+.pbmit-xcare-icon-healthcare:before {
+    content: "\f11b";
+}
+.pbmit-xcare-icon-cough:before {
+    content: "\f11c";
+}
+.pbmit-xcare-icon-injection:before {
+    content: "\f11d";
+}
+.pbmit-xcare-icon-pharmacy:before {
+    content: "\f11e";
+}
+.pbmit-xcare-icon-medicine:before {
+    content: "\f11f";
+}
+.pbmit-xcare-icon-cardiology:before {
+    content: "\f120";
+}
+.pbmit-xcare-icon-runny-nose:before {
+    content: "\f121";
+}
+.pbmit-xcare-icon-ear:before {
+    content: "\f122";
+}
+.pbmit-xcare-icon-eye-examination:before {
+    content: "\f123";
+}
+.pbmit-xcare-icon-mask:before {
+    content: "\f124";
+}
+.pbmit-xcare-icon-laboratory-2:before {
+    content: "\f125";
+}
+.pbmit-xcare-icon-eye:before {
+    content: "\f126";
+}
+.pbmit-xcare-icon-brain:before {
+    content: "\f127";
+}
+.pbmit-xcare-icon-molecule:before {
+    content: "\f128";
+}
+.pbmit-xcare-icon-pharmacy-1:before {
+    content: "\f129";
+}
+.pbmit-xcare-icon-report:before {
+    content: "\f12a";
+}
+.pbmit-xcare-icon-inhalator:before {
+    content: "\f12b";
+}
+.pbmit-xcare-icon-coronavirus:before {
+    content: "\f12c";
+}
+.pbmit-xcare-icon-world:before {
+    content: "\f12d";
+}
+.pbmit-xcare-icon-sphygmomanometer:before {
+    content: "\f12e";
+}
+.pbmit-xcare-icon-transfusion:before {
+    content: "\f12f";
+}
+.pbmit-xcare-icon-chemistry:before {
+    content: "\f130";
+}
+.pbmit-xcare-icon-vaccine:before {
+    content: "\f131";
+}
+.pbmit-xcare-icon-pills:before {
+    content: "\f132";
+}
+.pbmit-xcare-icon-helicopter:before {
+    content: "\f133";
+}
+.pbmit-xcare-icon-ventilation:before {
+    content: "\f134";
+}
+.pbmit-xcare-icon-cardiogram:before {
+    content: "\f135";
+}
+.pbmit-xcare-icon-wheel-chair:before {
+    content: "\f136";
+}
+.pbmit-xcare-icon-sugar-blood-level:before {
+    content: "\f137";
+}
+.pbmit-xcare-icon-hospital-bed:before {
+    content: "\f138";
+}
+.pbmit-xcare-icon-surgery-room:before {
+    content: "\f139";
+}
+.pbmit-xcare-icon-oxygen-tank:before {
+    content: "\f13a";
+}
+.pbmit-xcare-icon-pedicure:before {
+    content: "\f13b";
+}
+.pbmit-xcare-icon-elbow:before {
+    content: "\f13c";
+}
+.pbmit-xcare-icon-liver:before {
+    content: "\f13d";
+}
+.pbmit-xcare-icon-pils:before {
+    content: "\f13e";
+}
+.pbmit-xcare-icon-ct-scan:before {
+    content: "\f13f";
+}
+.pbmit-xcare-icon-live-chat:before {
+    content: "\f140";
+}
+.pbmit-xcare-icon-test-tube:before {
+    content: "\f141";
+}
+.pbmit-xcare-icon-thermometer:before {
+    content: "\f142";
+}
+.pbmit-xcare-icon-lab-equipment:before {
+    content: "\f143";
+}
+.pbmit-xcare-icon-drill:before {
+    content: "\f144";
+}
+.pbmit-xcare-icon-sick:before {
+    content: "\f145";
+}
+.pbmit-xcare-icon-coronavirus-1:before {
+    content: "\f146";
+}
+.pbmit-xcare-icon-transfusion-1:before {
+    content: "\f147";
+}
+.pbmit-xcare-icon-thermometer-1:before {
+    content: "\f148";
+}
+.pbmit-xcare-icon-handwash:before {
+    content: "\f149";
+}
+.pbmit-xcare-icon-blood-test:before {
+    content: "\f14a";
+}
+.pbmit-xcare-icon-chemistry-1:before {
+    content: "\f14b";
+}
+.pbmit-xcare-icon-microscope:before {
+    content: "\f14c";
+}
+.pbmit-xcare-icon-hospital-1:before {
+    content: "\f14d";
+}
+.pbmit-xcare-icon-time:before {
+    content: "\f14e";
+}
+.pbmit-xcare-icon-chemistry-2:before {
+    content: "\f14f";
+}
+.pbmit-xcare-icon-search:before {
+    content: "\f150";
+}
+.pbmit-xcare-icon-tools:before {
+    content: "\f151";
+}
+.pbmit-xcare-icon-tools-1:before {
+    content: "\f152";
+}
+.pbmit-xcare-icon-cardiogram-1:before {
+    content: "\f153";
+}
+.pbmit-xcare-icon-stethoscope-1:before {
+    content: "\f154";
+}
+.pbmit-xcare-icon-laboratory-3:before {
+    content: "\f155";
+}
+.pbmit-xcare-icon-bed:before {
+    content: "\f156";
+}
+.pbmit-xcare-icon-ppe:before {
+    content: "\f157";
+}
+.pbmit-xcare-icon-cough-1:before {
+    content: "\f158";
+}
+.pbmit-xcare-icon-ambulance:before {
+    content: "\f159";
+}
+.pbmit-xcare-icon-dna:before {
+    content: "\f15a";
+}
+.pbmit-xcare-icon-rx:before {
+    content: "\f15b";
+}
+.pbmit-xcare-icon-injection-1:before {
+    content: "\f15c";
+}
+.pbmit-xcare-icon-injection-2:before {
+    content: "\f15d";
+}
+.pbmit-xcare-icon-medicine-1:before {
+    content: "\f15e";
+}
+.pbmit-xcare-icon-face-mask:before {
+    content: "\f15f";
+}
+.pbmit-xcare-icon-medicine-2:before {
+    content: "\f160";
+}
+.pbmit-xcare-icon-vaccine-1:before {
+    content: "\f161";
+}
+.pbmit-xcare-icon-lungs:before {
+    content: "\f162";
+}
+.pbmit-xcare-icon-avatar:before {
+    content: "\f163";
+}
+.pbmit-xcare-icon-brain-1:before {
+    content: "\f164";
+}
+.pbmit-xcare-icon-cells:before {
+    content: "\f165";
+}
+.pbmit-xcare-icon-blood-donation:before {
+    content: "\f166";
+}
+.pbmit-xcare-icon-face-mask-1:before {
+    content: "\f167";
+}
+.pbmit-xcare-icon-location:before {
+    content: "\f168";
+}
+.pbmit-xcare-icon-email:before {
+    content: "\f169";
+}
+.pbmit-xcare-icon-phone-call:before {
+    content: "\f16a";
+}
+.pbmit-xcare-icon-share:before {
+    content: "\f16b";
+}
+.pbmit-xcare-icon-down-arrow:before {
+    content: "\f16c";
+}
+.pbmit-xcare-icon-play-button:before {
+    content: "\f16d";
+}
+.pbmit-xcare-icon-subscribe:before {
+    content: "\f16e";
+}

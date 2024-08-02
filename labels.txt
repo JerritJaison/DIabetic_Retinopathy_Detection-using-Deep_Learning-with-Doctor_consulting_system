@@ -1,0 +1,5 @@
+0 NO DR
+1 Mild
+2 Moderate
+3 Severe
+4 Proliferate

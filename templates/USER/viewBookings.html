@@ -1,0 +1,116 @@
+{% extends 'USER/userBase.html' %}
+{% block header %}
+{% load static %}
+
+<style>
+    #table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 95%;
+        margin-top: 10px !important;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        color: black;
+    }
+
+    /* tr:nth-child(even) {
+        background-color: #dddddd;
+    } */
+</style>
+
+<!-- Title Bar -->
+<div class="pbmit-title-bar-wrapper">
+    <div class="container">
+        <div class="pbmit-title-bar-content">
+            <div class="pbmit-title-bar-content-inner">
+                <div class="pbmit-tbar">
+                    <div class="pbmit-tbar-inner container">
+                        <h1 class="pbmit-tbar-title">Bookings</h1>
+                    </div>
+                </div>
+                <div class="pbmit-breadcrumb">
+                    <div class="pbmit-breadcrumb-inner">
+                        <span>
+                            <a title="" href="#" class="home"><span>Diabetic Retinopathy</span></a>
+                        </span>
+                        <span class="sep">
+                            <i class="pbmit-base-icon-right-1"></i>
+                        </span>
+                        <span><span class="post-root post post-post current-item">Bookings</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Title Bar End-->
+
+
+<div class="m-3">
+    <center>
+        <!-- <h1 class="m-3 bread">&nbsp;</h1> -->
+        <input type="text" class="form-control" id="searchInput" style="width: 90%;" placeholder="Search...">
+        <table id="table" border="1" style="width: 90%;">
+            <thead>
+                <tr style="text-align: center;">
+                    <th>Doctor</th>
+                    <th>Appointment Date</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                {% for i in data %}
+                <tr id="row{{ forloop.counter }}" style="text-align: center;">
+                    <td>
+                        {{i.doctor.name}}
+                    </td>
+                    <td>
+                        {{i.date}}
+                    </td>
+                    <td>
+                        {{i.time}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div id="noMatchingData" style="display: none;">
+            <h1 class="m-5">No Results Found</h1>
+        </div>
+    </center>
+</div>
+
+
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Handle search input
+        $("#searchInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            var rows = $("#tableBody tr");
+            var matchingRows = rows.filter(function () {
+                var rowText = $(this).text().toLowerCase();
+                return rowText.indexOf(value) > -1;
+            });
+            rows.hide(); // Hide all rows initially
+            matchingRows.show(); // Show matching rows
+            if (matchingRows.length === 0) {
+                $("#noMatchingData").show(); // Show message if no matching rows
+                $("#table").hide();
+            } else {
+                $("#noMatchingData").hide(); // Hide message if there are matching rows
+                $("#table").show();
+            }
+        });
+    });
+</script>
+
+{% endblock %}

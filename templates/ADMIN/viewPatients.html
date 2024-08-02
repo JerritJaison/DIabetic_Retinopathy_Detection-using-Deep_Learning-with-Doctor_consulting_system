@@ -1,0 +1,94 @@
+{% extends 'ADMIN/adminBase.html' %}
+{% block header %}
+{% load static %}
+
+<style>
+    #img-doc {
+        height: 320px !important;
+    }
+</style>
+
+
+<!-- Title Bar -->
+<div class="pbmit-title-bar-wrapper">
+    <div class="container">
+        <div class="pbmit-title-bar-content">
+            <div class="pbmit-title-bar-content-inner">
+                <div class="pbmit-tbar">
+                    <div class="pbmit-tbar-inner container">
+                        <h1 class="pbmit-tbar-title"> Patients</h1>
+                    </div>
+                </div>
+                <div class="pbmit-breadcrumb">
+                    <div class="pbmit-breadcrumb-inner">
+                        <span>
+                            <a title="" href="#" class="home"><span>Diabetic Retinopathy</span></a>
+                        </span>
+                        <span class="sep">
+                            <i class="pbmit-base-icon-right-1"></i>
+                        </span>
+                        <span><span class="post-root post post-post current-item"> Patients</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Title Bar End-->
+
+<div class="page-content">
+    <!-- Team Start -->
+    <section class="section-lgx">
+        <div class="container">
+            <div class="row">
+                {% for i in data %}
+                <article class="pbmit-team-style-1 col-md-6 col-lg-3">
+                    <div class="pbminfotech-post-item">
+                        <div class="pbmit-featured-wrap">
+                            <div class="pbmit-featured-img-wrapper">
+                                <div class="pbmit-featured-wrapper">
+                                    <img src="/static/media/{{i.image}}" id="img-doc" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pbminfotech-box-content">
+                            <div class="pbminfotech-box-content-inner">
+                                <div class="pbminfotech-box-team-position">{{i.specialization}}</div>
+                                <h3 class="pbmit-team-title">
+                                    <a>{{i.name}}</a><br>
+                                    <a>{{i.email}}</a><br>
+                                    <a>{{i.phone}}</a>
+                                </h3>
+
+                                <div class="div">
+                                    {% if i.loginid.is_active %}
+                                    <a href="/manageUsers?id={{i.loginid_id}}&status=0&type=Doctor" class=" btn
+                                        btn-danger">Delete</a>
+                                    {% else %}
+                                    <a href="/manageUsers?id={{i.loginid_id}}&status=1&type=Doctor"
+                                        class="btn btn-success">Approve</a>
+                                    <a href="/manageUsers?id={{i.loginid_id}}&status=0&type=Doctor" class=" btn
+                                        btn-danger">Delete</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- Team End -->
+
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}
