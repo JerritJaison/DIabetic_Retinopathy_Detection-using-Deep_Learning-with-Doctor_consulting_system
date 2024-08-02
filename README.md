@@ -8,6 +8,8 @@ Chatbot: Integrated chatbot to assist users with queries and guide them through 
 Doctor Consulting System: Allows users to consult with doctors for professional medical advice and diagnosis.
 
 Usage
+Paste your trained model(H5) in the Project folder for prediction.Trained model which i used, is available in the below link
+https://drive.google.com/drive/folders/1EpQAZ9qIRKofAx9l_JFe1qVMsKIlz5yC?usp=sharing
 Upload retinal images for analysis.
 Interact with the chatbot for assistance and guidance.
 Consult with doctors through the integrated system for further medical advice.
