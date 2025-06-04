@@ -1,1 +1,1 @@
-web: gunicorn diabetic_retinopathy.wsgi
+web: gunicorn diabetic_retinopathy.wsgi --timeout 120
