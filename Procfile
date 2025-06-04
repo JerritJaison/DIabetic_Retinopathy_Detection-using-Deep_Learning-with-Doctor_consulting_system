@@ -1,1 +1,1 @@
-web: gunicorn Diabetic_Retinopathy_Detection-using-Deep_Learning-with-Doctor_consulting_system.wsgi
+web: gunicorn diab_retina_app.wsgi
