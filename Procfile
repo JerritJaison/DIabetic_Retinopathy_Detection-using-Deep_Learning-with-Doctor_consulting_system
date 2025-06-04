@@ -1,1 +1,1 @@
-web: gunicorn diab_retina_app.wsgi
+web: gunicorn diabetic_retinopathy.wsgi
