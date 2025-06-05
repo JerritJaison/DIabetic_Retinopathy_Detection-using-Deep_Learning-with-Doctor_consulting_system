@@ -4,8 +4,8 @@
   src: url('../fonts/pbminfotech-base-icons5c2e.eot?60310357#iefix') format('embedded-opentype'),
        url('../fonts/pbminfotech-base-icons5c2e.woff2?60310357') format('woff2'),
        url('../fonts/pbminfotech-base-icons5c2e.woff?60310357') format('woff'),
-       url('../fonts/pbminfotech-base-icons5c2e.ttf?60310357') format('truetype'),
-       url('../fonts/pbminfotech-base-icons5c2e.svg?60310357#pbminfotech-base-icons') format('svg');
+       url('../fonts/pbminfotech-base-icons5c2e.ttf?60310357') format('truetype');
+    
   font-weight: normal;
   font-style: normal;
 }
