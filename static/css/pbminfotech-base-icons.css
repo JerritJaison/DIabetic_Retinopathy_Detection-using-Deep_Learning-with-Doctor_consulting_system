@@ -5,20 +5,10 @@
        url('../fonts/pbminfotech-base-icons5c2e.woff2?60310357') format('woff2'),
        url('../fonts/pbminfotech-base-icons5c2e.woff?60310357') format('woff'),
        url('../fonts/pbminfotech-base-icons5c2e.ttf?60310357') format('truetype');
-    
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'pbminfotech-base-icons';
-    src: url('../font/pbminfotech-base-icons.svg?60310357#pbminfotech-base-icons') format('svg');
-  }
-}
-*/
+
 [class^="pbmit-base-icon-"]:before, [class*=" pbmit-base-icon-"]:before {
   font-family: "pbminfotech-base-icons";
   font-style: normal;
